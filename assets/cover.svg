@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">Valuation Lab — AI Investment Research Workbench</title>
+  <desc id="desc">From company filings to a reasoned investment view. Financials, scenarios and AI research.</desc>
+  <rect width="1280" height="640" fill="#f5f6f1"/>
+  <rect x="32" y="32" width="1216" height="576" rx="26" fill="none" stroke="#d7ded3"/>
+  <rect x="80" y="78" width="56" height="56" rx="14" fill="#214f43"/>
+  <text x="108" y="115" text-anchor="middle" font-family="Georgia,serif" font-size="32" font-weight="bold" fill="#e3e8be">vl</text>
+  <text x="154" y="112" font-family="Arial,sans-serif" font-size="15" letter-spacing="3" font-weight="bold" fill="#6b7c6e">INVESTMENT RESEARCH</text>
+  <text x="77" y="249" font-family="Arial,sans-serif" font-size="76" font-weight="bold" letter-spacing="-3" fill="#203b34">Valuation Lab</text>
+  <text x="81" y="301" font-family="Arial,sans-serif" font-size="26" fill="#527065">AI Investment Research Workbench</text>
+  <text x="82" y="378" font-family="Arial,sans-serif" font-size="23" fill="#304a40">From company filings to</text>
+  <text x="82" y="411" font-family="Arial,sans-serif" font-size="23" fill="#304a40">a reasoned investment view.</text>
+  <rect x="81" y="457" width="145" height="38" rx="19" fill="#e7ecdf"/>
+  <text x="153" y="482" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#315b48">FINANCIALS</text>
+  <rect x="238" y="457" width="145" height="38" rx="19" fill="#e7ecdf"/>
+  <text x="310" y="482" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#315b48">SCENARIOS</text>
+  <rect x="395" y="457" width="163" height="38" rx="19" fill="#e7ecdf"/>
+  <text x="476" y="482" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#315b48">AI RESEARCH</text>
+  <text x="82" y="562" font-family="Arial,sans-serif" font-size="16" fill="#6c7c70">Functional prototype · Active development</text>
+  <rect x="795" y="80" width="405" height="480" rx="24" fill="#214f43"/>
+  <text x="829" y="126" font-family="Arial,sans-serif" font-size="13" letter-spacing="2.5" fill="#c4d2bc">THE RESEARCH PATH</text>
+  <path d="M851 173V471" fill="none" stroke="#8ba38e" stroke-width="2"/>
+  <g font-family="Arial,sans-serif">
+    <circle cx="851" cy="181" r="14" fill="#e0e7bd"/><text x="851" y="186" text-anchor="middle" font-size="13" fill="#214f43">1</text>
+    <text x="883" y="181" font-size="22" font-weight="bold" fill="#ffffff">Evidence</text>
+    <text x="883" y="207" font-size="16" fill="#c3d3c9">Filings, guidance, industry</text>
+    <circle cx="851" cy="275" r="14" fill="#e0e7bd"/><text x="851" y="280" text-anchor="middle" font-size="13" fill="#214f43">2</text>
+    <text x="883" y="275" font-size="22" font-weight="bold" fill="#ffffff">Financial models</text>
+    <text x="883" y="301" font-size="16" fill="#c3d3c9">Cash flow, funding, forecasts</text>
+    <circle cx="851" cy="369" r="14" fill="#e0e7bd"/><text x="851" y="374" text-anchor="middle" font-size="13" fill="#214f43">3</text>
+    <text x="883" y="369" font-size="22" font-weight="bold" fill="#ffffff">Investment reasoning</text>
+    <text x="883" y="395" font-size="16" fill="#c3d3c9">Drivers, mechanisms, value</text>
+    <circle cx="851" cy="463" r="14" fill="#e0e7bd"/><text x="851" y="468" text-anchor="middle" font-size="13" fill="#214f43">4</text>
+    <text x="883" y="463" font-size="22" font-weight="bold" fill="#ffffff">Research reports</text>
+    <text x="883" y="489" font-size="16" fill="#c3d3c9">Interactive views · HTML · Word</text>
+  </g>
+</svg>
