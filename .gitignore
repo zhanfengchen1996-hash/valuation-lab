@@ -1,0 +1,15 @@
+# Public showcase: keep local settings and generated user data separate.
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+data/
+outputs/
+logs/
+*.log
