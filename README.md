@@ -39,7 +39,7 @@ The AI assessment combines industry economics, growth attribution, competitive s
 
 **[Explore the AI research workflow →](docs/ai-research.md)**
 
-*These are selected views from the working development prototype. Company figures and scenario outputs belong to their saved research snapshots; captions and the interface retain their reporting context. English and Chinese interfaces are supported; the captures show the Chinese interface.*
+*These are selected views from the English interface of the working development prototype. Company figures and scenario outputs belong to their saved research snapshots; captions and the interface retain their reporting context. The application also supports Chinese.*
 
 ## Research capabilities
 
