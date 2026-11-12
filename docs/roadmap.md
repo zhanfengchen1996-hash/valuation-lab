@@ -2,7 +2,7 @@
 
 [Product overview](../README.md) · [AI research workflow](ai-research.md) · [中文路线图](#中文路线图)
 
-**Status: functional prototype, active development. Updated 11 November 2026.**
+**Status: functional prototype, active development. Updated 12 November 2026.**
 
 ## Implemented in the development application
 
@@ -30,12 +30,9 @@
 - Make Excel and Word generation independent of the development machine's bundled components.
 - Publish installation documentation, a versioned release and the selected software license.
 
-## Following milestone: reusable company-research skill
+## Published separately: English company-research skill
 
-- Package the established research workflow with an explicit invocation, input contract and output format.
-- Document data access and calculation-tool dependencies.
-- Supply worked examples and checks covering multiple business models.
-- Reuse the same analytical method in the Lab and the skill entry point.
+The [Equity Research Skill](https://github.com/zhanfengchen1996-hash/equity-research-skill) is available under MIT with research instructions, analytical references, host-tool requirements and editable Markdown and Word templates. The first release covers the nine-chapter report and two-path revenue forecast. Calculation scripts, automatic export and worked company reports are possible later extensions.
 
 The public repository currently presents the product and research design. Release milestones will be recorded here as the distributable packages become available.
 
@@ -43,7 +40,7 @@ The public repository currently presents the product and research design. Releas
 
 ## 中文路线图
 
-**状态：可运行原型，持续开发中。更新于 2026 年 11 月 11 日。**
+**状态：可运行原型，持续开发中。更新于 2026 年 11 月 12 日。**
 
 ### 开发版已实现
 
@@ -57,8 +54,8 @@ The public repository currently presents the product and research design. Releas
 
 统一运行依赖，提供首次配置与示例数据体验，使 Excel、Word 生成功能可以独立安装；补充可复现案例、安装说明、版本发布及软件许可证。
 
-### 后续阶段：公司研究 Agent Skill
+### 已独立发布：英文公司研究 Agent Skill
 
-封装明确的调用方式、输入输出、数据与工具依赖，提供多种业务模式的示例与检查，并与 Lab 共用研究方法。
+[Equity Research Skill](https://github.com/zhanfengchen1996-hash/equity-research-skill) 以 MIT 许可证提供英文研究指令、方法说明、工具要求及 Markdown、Word 模板，包含九章报告与两条收入预测路径。计算脚本、自动导出和公司完整案例可作为后续扩展。
 
 本仓库当前展示产品及研究设计，后续软件与 Skill 发布进展将在此更新。
