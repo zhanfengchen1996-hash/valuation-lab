@@ -39,6 +39,8 @@ The AI assessment combines industry economics, growth attribution, competitive s
 
 **[Explore the AI research workflow →](docs/ai-research.md)**
 
+**[Use the standalone English Equity Research Skill →](https://github.com/zhanfengchen1996-hash/equity-research-skill)** — research instructions, analytical references and editable Markdown and Word templates, published under MIT.
+
 *These are selected views from the English interface of the working development prototype. Company figures and scenario outputs belong to their saved research snapshots; captions and the interface retain their reporting context. The application also supports Chinese.*
 
 ## Research capabilities
@@ -72,6 +74,6 @@ The prototype uses a Python backend, HTML/CSS/JavaScript interfaces, OpenAI API 
 
 This repository is the public product showcase: project documentation, research methodology and selected interface captures. The working application is being refined for a portable release.
 
-The next milestones are standard installation, a sample-data experience, reproducible examples and packaging the company-research workflow as a reusable Agent Skill within the project. The [roadmap](docs/roadmap.md) distinguishes implemented functionality from upcoming distribution work.
+The company-research method is now available in the separate [Equity Research Skill](https://github.com/zhanfengchen1996-hash/equity-research-skill) repository. Its first release contains English instructions and report templates. The application's next milestones are standard installation, a sample-data experience and reproducible examples. The [roadmap](docs/roadmap.md) distinguishes implemented functionality from upcoming distribution work.
 
 Designed and developed by [Ethan Chen](https://github.com/zhanfengchen1996-hash).
