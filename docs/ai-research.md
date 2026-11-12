@@ -5,7 +5,7 @@
 
 The research process connects a company's industry position to its operating results, funding needs and valuation. Its central task is to explain how a business fact changes the investor's financial picture.
 
-The current workflow is implemented inside the application. A reusable Agent Skill is a planned distribution format for the same method and its supporting tools.
+The workflow is implemented inside the application. The separate [Equity Research Skill](https://github.com/zhanfengchen1996-hash/equity-research-skill) repository now provides English research instructions, analytical references and editable Markdown and Word report templates under MIT. The host agent supplies data access, calculations and document export for this instruction-based release.
 
 ## From evidence to an investment view
 
@@ -58,17 +58,17 @@ Long-term analysis focuses on competitive durability and cash returns. Short-ter
 
 ## 5. Produce one coherent report
 
-The report is organized into nine connected chapters:
+The English Skill opens with an executive summary and develops nine connected chapters:
 
-1. Core investment judgment
-2. Industry definition and market economics
-3. Company operations and growth drivers
-4. Next-quarter revenue forecast
-5. Competition and company strategy
-6. External environment and financial transmission
-7. Valuation and investment-bank perspectives
-8. U.S. short-term market structure
-9. Long-term value and investment conclusion
+1. Business and Products
+2. Industry and Market Outlook
+3. Competition and Competitive Advantage
+4. Financial Performance and Cash Flow
+5. Next Quarter Revenue Forecast
+6. Economic and Policy Environment
+7. Valuation and Investment Bank Views
+8. Share Price Trends and Near Term View
+9. Long Term Outlook and Investment Conclusion
 
 Evidence and methods are collected in an appendix. Shared report content supports the interactive website, standalone HTML and Word download.
 
@@ -82,13 +82,13 @@ Evidence and methods are collected in an appendix. Shared report content support
 | Consistency | Validate dates, units, source references, model weights and financial reconciliation. |
 | Presentation | Render one report structure into the website and downloadable documents. |
 
-The skill-packaging milestone will define a clear invocation, input requirements, tool dependencies, output contract and worked examples. The Lab interface and future skill will share the research method so improvements remain consistent across both entry points.
+The standalone Skill defines its invocation, input requirements, host-tool dependencies and report structure. Its first release focuses on the research method and English templates. Calculation scripts, automated export and worked company reports can be developed as separate extensions.
 
 ---
 
 ## 中文说明
 
-**这是 Valuation Lab 内部的公司研究方法。** 现阶段以应用内研究流程运行，后续计划将相同方法与配套工具封装为可复用的 Agent Skill。
+**这是 Valuation Lab 内部的公司研究方法。** 独立的 [Equity Research Skill](https://github.com/zhanfengchen1996-hash/equity-research-skill) 已按 MIT 许可证发布英文研究指令、方法说明及 Markdown、Word 报告模板。数据访问、计算与导出由使用者的智能体环境提供。
 
 研究路线为：**公司与研究时点 → 行业经济性与竞争 → 增长来源与经营执行 → 两条收入预测路径及指引 → 现金转换与融资 → 估值、市场结构与投资结论。**
 
@@ -104,10 +104,10 @@ The skill-packaging milestone will define a clear invocation, input requirements
 
 竞争策略分析解释公司的优势如何影响资本回报；现金流和融资分析连接资本支出、债务期限、新增利息及股权摊薄；有日期的投行观点提供外部比较。长期判断关注竞争优势与现金回报，短期分析使用美股相对收益、趋势、动量、波动和成交活跃度等指标。
 
-最终报告采用九章结构：核心判断、行业市场、公司增长、季度收入预测、竞争战略、外部传导、估值与投行观点、短期市场结构、中长期结论。资料与方法集中列入附录。
+英文 Skill 先提供执行摘要，再按九章展开：业务与产品、行业市场、竞争优势、财务与现金流、下一季度收入预测、经济与政策、估值与投行观点、短期股价趋势、长期展望与投资结论。资料与方法集中列入附录。
 
 ### 方法与软件如何结合
 
-AI 获取证据并形成研究论证，Python 完成数值计算，校验程序保持日期、单位、来源与财务逻辑一致。网页、HTML 和 Word 使用同一份报告结构。未来 Skill 将提供明确输入、工具依赖和输出格式，并与 Lab 共用研究方法。
+应用内由 AI 获取证据并形成研究论证，Python 完成数值计算，校验程序保持日期、单位、来源与财务逻辑一致。网页、HTML 和 Word 使用同一份报告结构。独立 Skill 已明确输入、工具依赖和输出格式，第一版聚焦英文研究方法与模板。
 
 [返回产品介绍](../README.zh-CN.md)
